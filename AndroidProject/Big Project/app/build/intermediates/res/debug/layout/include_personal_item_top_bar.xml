@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_action"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/base_action_bar_height"
+    android:gravity="center"
+    android:background="@color/blue"
+    >
+
+
+
+    <TextView
+        android:id="@+id/tv_title"
+        style="@style/Smile.TextView._White"
+        android:textSize="22sp" />
+
+
+
+</LinearLayout><!-- From: file:/F:/Code/Android/AndroidProject/Big%20Project/app/src/main/res/layout/include_personal_item_top_bar.xml -->

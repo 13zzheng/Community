@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.bmob.lostfound.AddAnswerActivity">
+
+
+    <include layout="@layout/include_answer_add_top_bar"></include>
+    <EditText
+        android:id="@+id/et_content"
+        android:hint="Your Answer"
+        android:background="@drawable/input"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:lineSpacingExtra="3dp"
+        android:gravity="top"
+        android:minLines="5"
+        />
+
+</LinearLayout>
+<!-- From: file:/F:/Code/Android/AndroidProject/Big%20Project/app/src/main/res/layout/activity_add_answer.xml -->

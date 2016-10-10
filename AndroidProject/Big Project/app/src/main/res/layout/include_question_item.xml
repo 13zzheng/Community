@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/question_title"
+        android:layout_width="match_parent"
+        style="@style/Smile.TextView._Black"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:singleLine="true"
+        />
+
+    <TextView
+        android:id="@+id/question_content"
+        android:layout_marginTop="15dp"
+        style="@style/Smile.TextView._Black"
+        android:layout_below="@id/question_title"
+        android:textSize="14sp"
+        android:lineSpacingExtra="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/question_time"
+            android:layout_marginTop="20dp"
+            style="@style/Smile.TextView._Gray"
+            android:textSize="12sp"
+            android:layout_below="@id/question_content"
+            android:layout_gravity="bottom"
+            >
+        </TextView>
+
+        <TextView
+            android:id="@+id/question_answerNum"
+            style="@style/Smile.TextView._Gray"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/question_content"
+            android:layout_toRightOf="@id/question_time"
+            android:layout_marginLeft="10dp"
+            android:textSize="12sp"
+            android:layout_gravity="bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/question_username"
+            android:layout_marginTop="15dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="3dp"
+            android:textSize="12sp"
+            android:layout_alignParentRight="true"
+            android:drawablePadding="5dp"
+            android:paddingBottom="3dp"
+            android:layout_below="@id/question_content"
+            android:background="@color/green"
+            style="@style/Smile.TextView._White"
+            android:drawableLeft="@drawable/icon_account_white"
+            >
+        </TextView>
+
+</RelativeLayout>

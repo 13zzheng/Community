@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/base_bg"
+    android:orientation="vertical"
+    tools:context="com.bmob.lostfound.fragment.QAFragment">
+
+    <include layout="@layout/include_qa_top_bar" />
+
+    <ListView
+        android:id="@+id/list_question"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+
+    <include layout="@layout/include_qa_no_data" />
+
+
+
+</LinearLayout>
+<!-- From: file:/F:/Code/Android/AndroidProject/Big%20Project/app/src/main/res/layout/fragment_qa.xml -->

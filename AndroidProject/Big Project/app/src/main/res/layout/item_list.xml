@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        style="@style/Smile.TextView._Black"
+        android:singleLine="true"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        >
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_describe"
+        android:layout_marginTop="10dp"
+        style="@style/Smile.TextView._Black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title" 
+        android:minLines="1"
+        android:lineSpacingExtra="3dp"
+        android:textSize="14sp"
+        >
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_marginTop="10dp"
+        style="@style/Smile.TextView._Gray"
+        android:textSize="12sp"
+        android:layout_below="@id/tv_describe" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_photo"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="3dp"
+        android:textSize="12sp"
+        android:paddingBottom="3dp"
+        android:drawablePadding="5dp"
+        android:layout_alignParentRight="true"
+        style="@style/Smile.TextView._White"
+        android:layout_below="@id/tv_describe"
+        android:background="@color/base_actionbar_bg"
+        android:drawableLeft="@drawable/icon_photo" >
+    </TextView>
+
+</RelativeLayout>

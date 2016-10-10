@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="F:\Code\Android\AndroidProject\Bmob_Sample_lost_found\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="F:\Code\Android\AndroidProject\Bmob_Sample_lost_found\app\build\intermediates\pre-dexed\debug\classes-ca120a2baa7bb7e9b39cb2c00b5d25eb898ffb53.jar" />
+    </item>
+    <item
+        jar="F:\Code\Android\AndroidProject\Bmob_Sample_lost_found\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
+        <dex dex="F:\Code\Android\AndroidProject\Bmob_Sample_lost_found\app\build\intermediates\pre-dexed\debug\classes-44023d08e4b3c6ca0a6548257c3b13ec4e2514e6.jar" />
+    </item>
+    <item
+        jar="F:\Code\Android\AndroidProject\Bmob_Sample_lost_found\app\build\intermediates\exploded-aar\com.android.support\design\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="fc29308a7a8f6d4407b34634eb48fb8b817f9b23">
+        <dex dex="F:\Code\Android\AndroidProject\Bmob_Sample_lost_found\app\build\intermediates\pre-dexed\debug\classes-99f4ab11b82ec852b0b3b37b2b4231326d4b5c53.jar" />
+    </item>
+    <item
+        jar="F:\Code\Android\AndroidProject\Bmob_Sample_lost_found\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="F:\Code\Android\AndroidProject\Bmob_Sample_lost_found\app\build\intermediates\pre-dexed\debug\internal_impl-24.0.0-540ee209baa077ab885910f2218f94b44a6fac52.jar" />
+    </item>
+    <item
+        jar="F:\Code\Android\AndroidProject\Bmob_Sample_lost_found\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
+        <dex dex="F:\Code\Android\AndroidProject\Bmob_Sample_lost_found\app\build\intermediates\pre-dexed\debug\classes-3adb1500ba2153d33d539bb0410bbe700150fb97.jar" />
+    </item>
+    <item
+        jar="F:\Code\Android\AndroidProject\Bmob_Sample_lost_found\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="894922f67adeaaef51f077a29e315da21a3382d3">
+        <dex dex="F:\Code\Android\AndroidProject\Bmob_Sample_lost_found\app\build\intermediates\pre-dexed\debug\classes-67afde2808b0d083059e0e5e210956391bd5dde4.jar" />
+    </item>
+    <item
+        jar="F:\Code\Android\AndroidProject\Bmob_Sample_lost_found\app\libs\picasso-2.2.0.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="74137f8d9aac26dd9463efe32271f2be8d41cda9">
+        <dex dex="F:\Code\Android\AndroidProject\Bmob_Sample_lost_found\app\build\intermediates\pre-dexed\debug\picasso-2.2.0-6f3cdddbef5252b2d66032dee62f9a63515999b5.jar" />
+    </item>
+    <item
+        jar="F:\Code\Android\AndroidProject\Bmob_Sample_lost_found\app\build\intermediates\exploded-aar\com.ashokvarma.android\bottom-navigation-bar\1.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="f72894374bf136ef52ef3098dd9039ae32e6fec4">
+        <dex dex="F:\Code\Android\AndroidProject\Bmob_Sample_lost_found\app\build\intermediates\pre-dexed\debug\classes-ceefbd6f0ab7d5d54692e937e9c45c5dd4e8850d.jar" />
+    </item>
+    <item
+        jar="F:\Code\Android\AndroidProject\Bmob_Sample_lost_found\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
+        <dex dex="F:\Code\Android\AndroidProject\Bmob_Sample_lost_found\app\build\intermediates\pre-dexed\debug\classes-cb03038fa933533d33dbd1f8c5acec283d56c105.jar" />
+    </item>
+    <item
+        jar="F:\Code\Android\AndroidProject\Bmob_Sample_lost_found\app\libs\bmob_v3.1.1beta.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="3b70cca78172af77118481a3f097b542e55e55a6">
+        <dex dex="F:\Code\Android\AndroidProject\Bmob_Sample_lost_found\app\build\intermediates\pre-dexed\debug\bmob_v3.1.1beta-cdb45bbd6755ec1b08ad7070b532a36f9feff891.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\24.0.0\2943c74db6d4346ab8c6531adac91fa05c137c40\support-annotations-24.0.0.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="F:\Code\Android\AndroidProject\Bmob_Sample_lost_found\app\build\intermediates\pre-dexed\debug\support-annotations-24.0.0-170a33ba025e7388493b8e76c041cf4d64a29a8a.jar" />
+    </item>
+
+</items>

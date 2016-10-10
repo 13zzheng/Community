@@ -1,0 +1,251 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/base_bg"
+    android:orientation="vertical"
+    tools:context="com.bmob.lostfound.fragment.PersonalFragment">
+
+    <include layout="@layout/include_per_top_bar" ></include>
+    <LinearLayout
+        android:id="@+id/ll_name"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:padding="15dp"
+        android:gravity="center_vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/Smile.TextView._Black"
+                android:textSize="16sp"
+                android:text="Your Name"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Smile.TextView._Black"
+                android:text="|"
+                android:gravity="right"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:gravity="right"
+            android:textSize="12sp"
+            android:text="name"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_lost"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:padding="15dp"
+        android:gravity="center_vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/Smile.TextView._Black"
+                android:textSize="16sp"
+                android:text="Your Lost"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Smile.TextView._Black"
+                android:text="|"
+                android:gravity="right"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:gravity="right"
+            android:textSize="20sp"
+            android:text=">"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_found"
+        android:layout_marginTop="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:padding="15dp"
+        android:gravity="center_vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/Smile.TextView._Black"
+                android:textSize="16sp"
+                android:text="Your Found"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Smile.TextView._Black"
+                android:text="|"
+                android:gravity="right"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:gravity="right"
+            android:textSize="20sp"
+            android:text=">"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_question"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:padding="15dp"
+        android:gravity="center_vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/Smile.TextView._Black"
+                android:textSize="16sp"
+                android:text="Your Question"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Smile.TextView._Black"
+                android:text="|"
+                android:gravity="right"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:gravity="right"
+            android:textSize="20sp"
+            android:text=">"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_answer"
+        android:layout_marginTop="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:padding="15dp"
+        android:gravity="center_vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/Smile.TextView._Black"
+                android:textSize="16sp"
+                android:text="Your Answer"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Smile.TextView._Black"
+                android:text="|"
+                android:gravity="right"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:gravity="right"
+            android:textSize="20sp"
+            android:text=">"/>
+    </LinearLayout>
+    
+    
+    
+    
+    
+    <TextView
+        android:id="@+id/tv_logout"
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/base_actionbar_bg"
+        android:gravity="center"
+        android:text="Logout"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        />
+
+
+</LinearLayout>
+<!-- From: file:/F:/Code/Android/AndroidProject/Big%20Project/app/src/main/res/layout/fragment_personal.xml -->

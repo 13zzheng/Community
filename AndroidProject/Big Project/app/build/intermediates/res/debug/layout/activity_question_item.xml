@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/base_bg"
+    android:orientation="vertical"
+    tools:context="com.bmob.lostfound.QuestionItemActivity">
+
+    <include layout="@layout/include_qa_item_top_bar"></include>
+    <include layout="@layout/include_question_item"></include>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Answers :"
+        android:textSize="18sp"
+        android:padding="10dp"
+        />
+    <ListView
+        android:id="@+id/list_answers"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    </ListView>
+</LinearLayout>
+<!-- From: file:/F:/Code/Android/AndroidProject/Big%20Project/app/src/main/res/layout/activity_question_item.xml -->

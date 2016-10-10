@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bmob.lostfound"
+    android:versionCode="2"
+    android:versionName="2.0" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+
+    <android:uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LostFoundActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+        </activity>
+        <activity
+            android:name=".AddLostFoundActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".loginRegistActivity.LoginActivity"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name=".loginRegistActivity.RegistDialog"
+            android:label="@string/title_activity_regist_dialog"
+            android:theme="@style/dialog" >
+        </activity>
+        <activity
+            android:name=".mainactivity.MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name=".AddQAActivity"
+            android:label="@string/title_activity_add_qa" >
+        </activity>
+        <activity
+            android:name=".QuestionItemActivity"
+            android:label="@string/title_activity_question_item" >
+        </activity>
+        <activity
+            android:name=".AddAnswerActivity"
+            android:label="@string/title_activity_add_answer" >
+        </activity>
+        <activity
+            android:name=".AddShareActivity"
+            android:label="@string/title_activity_add_answer" >
+        </activity>
+        <activity
+            android:name=".personal.MyLostFoundActivity"
+            android:label="@string/title_activity_my_lost" >
+        </activity>
+    </application>
+
+</manifest>

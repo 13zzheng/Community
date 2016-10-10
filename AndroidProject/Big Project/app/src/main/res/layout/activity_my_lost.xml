@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/base_bg"
+    android:orientation="vertical"
+    tools:context="com.bmob.lostfound.personal.MyLostFoundActivity">
+
+    <include layout="@layout/include_personal_item_top_bar">
+
+    </include>
+    <ListView
+        android:id="@+id/lv_lost"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    </ListView>
+
+
+
+
+</LinearLayout>
