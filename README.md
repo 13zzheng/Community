@@ -1,5 +1,5 @@
-# Community
-##一个社区功能软件，有失物招领，问答，分享功能，后台使用的是bmob平台提供的服务器服务。<br>
+# 校园互助
+## 社区功能软件，有失物招领，问答，分享功能，后台使用的是bmob平台提供的服务器服务。<br>
 ps:很多细节还待完善。<br>
 主要界面：<br>
 ![image](https://github.com/13zzheng/Community/blob/master/UI/login.png)
